@@ -1,0 +1,141 @@
+footer {
+    background-color: transparent;
+    border-top: 2px solid #eae8e6;
+    bottom: 0px;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: static;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: var(--footer-width);
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: row; 
+    max-width: var(--footer-width);
+    justify-content: space-between;
+    gap: 4rem;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+
+.footer-logo-column{
+    padding-right: 10%;
+    padding-top: 4%;
+    margin-left: 1%;
+}
+
+.footer-logo {
+    width: 100%;
+}
+
+.info-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    flex-grow: 1;
+    padding-top: 12%;
+}
+
+.info-columns div {
+    flex-grow: 1;
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.info-columns div section{
+    min-width: 8rem;
+    width: 50%;
+}
+
+.info-columns ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    padding: 0;
+     margin-left: 50px;
+    flex-direction: column;
+    font-family: 'Gotham Book';
+    font-weight: 500;
+}
+
+.info-columns ul a{
+    color: var(--text-color);
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.info-columns ul a:hover{
+    color: #ff9900;
+    background-color: transparent;
+
+}
+
+.footer-buttom-info {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.footer-buttom-wrapper {
+    width: 100%; 
+    margin: 0 auto;
+    padding: 2.5rem 1rem;
+    background-color: transparent;
+    border-top: 2px solid #eae8e6;
+    font-family: 'Gotham Light';
+    font-weight: 100;
+}
+
+.footer-buttom small {
+    font-size: 1rem;
+    display: inline;
+    white-space: nowrap;
+}
+
+.footer-buttom small {
+    font-size: 1rem;
+    width: 95%;
+}
+
+.footer-buttom-wrapper small span a{
+    text-decoration: none;
+    color: #178ec5;
+    background-color: transparent;
+}
+
+.footer-buttom-wrapper small span a:hover{
+    color: #ff9900;
+    background-color: transparent;
+
+}
+
+@media screen and (min-widht: 768px) {
+    .footer-columns {
+        flex-direction: column;
+      }
+    
+      .info-columns div {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    
+      .info-columns div section {
+        width: 100%;
+      }
+    
+      .footer-buttom-wrapper {
+        padding: 1.5rem 1rem;
+      }
+}

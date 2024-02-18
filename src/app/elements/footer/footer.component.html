@@ -1,0 +1,39 @@
+<footer>
+    <div class="footer-wrapper">
+        <div class="footer-columns">
+            <div class="footer-logo-column">
+                <a [routerLink]="['/']">
+                    <img src="../../../assets/img/Logo.png" alt="Logo" class="footer-logo">
+                </a>
+            </div>
+            <div class="info-columns">
+                <section>
+                    <ul>
+                        <li><a routerLink="/nosotros" fragment="inicio">Nosotros</a></li>
+                        <li><a routerLink="/nuestros-servicios" fragment="inicio">Nuestros Servicios</a></li>
+                        <li><a routerLink="/nuestros-clientes" fragment="inicio">Nuestros Clientes</a></li>
+                        <li><a routerLink="/galeria" fragment="inicio">Galería</a></li>
+                        <li><a routerLink="/contacto" fragment="inicio">Contacto</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li><a href="#">Descargo de resposabilidad</a></li>
+                        <li><a href="#">Financiación</a></li>
+                        <li><a href="#">Políticas de privacidad</a></li>
+                        <li><a href="#">Términos de servicio</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="footer-buttom-info">
+        <div class="footer-buttom-wrapper">
+        <small>
+            <span>
+                Derechos de Autor &copy; {{currentYear}} <a href="https://aldair-cruz-bautista.netlify.app"> Aldair Cruz Bautista </a> | Todos los derechos reservados
+            </span>
+        </small>
+        </div>
+    </div>
+</footer>
