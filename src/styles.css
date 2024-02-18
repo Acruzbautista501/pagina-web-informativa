@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('../src/assets/fonts/Gotham-Bold.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Gotham Black';
+    src: url('../src/assets/fonts/Gotham-Black.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Gotham Book';
+    src: url('../src/assets/fonts/Gotham-Book.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Gotham Light';
+    src: url('../src/assets/fonts/Gotham-Light.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Gotham Medium';
+    src: url('../src/assets/fonts/Gotham-Medium.otf') format('opentype');
+  }
+  
+  
+  .custom-swal-font {
+    font-family: 'Gotham Book'; 
+  }
+    
